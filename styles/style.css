@@ -4,14 +4,18 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
 .wrapper {
     display: flex;
 }
 
 .left-bar {
-    /* display: flex; */
-    /* justify-content: flex-start; */
-    /* padding-left: 10px; */
+    display: flex;
+    flex-direction: column;
     background-color: black;
     width: 300px;
     height: calc(100vh - 100px);
@@ -19,6 +23,95 @@
 
 .logo {
     width: 200px;
+    padding: 20px 0 0 20px;
+}
+
+.top-container {
+    padding: 20px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+div.top-container a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #7d7d7d;
+    gap: 5px;
+}
+
+.home-img {
+    width: 25px;
+}
+
+.playlist-title {
+    color: white;
+    padding: 30px 0 0 20px;
+    font-size: 1rem;
+}
+
+.playlist-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 0 0 20px;
+}
+
+.playlist-img {
+    width: 35px;
+}
+
+div.playlist-container a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #7d7d7d;
+    gap: 10px;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.download-container {
+    margin-top: auto;
+    padding: 0 0 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.download-img {
+    width: 15px;
+}
+
+div.download-container a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #7d7d7d;
+    gap: 10px;
+}
+
+.line {
+    border-bottom: 2px solid #7d7d7d;
+    width: 250px;
+}
+
+.profile-img {
+    width: 25px;
+    height: 25px;
+    background-color: #7e7e7e;
+    border: 1px solid #7e7e7e;
+    border-radius: 50%;
+}
+
+.john {
+    font-size: 1.2rem;
+    color: #ffffff;
 }
 
 .upgrade-bar {

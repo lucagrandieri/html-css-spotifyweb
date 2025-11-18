@@ -6,12 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <div class="wrapper">
         <div class="left-bar">
-            <img class="logo" src="./img/logo.svg" alt="Logo">
+            <a class="logo-container" href=""><img class="logo" src="./img/logo.svg" alt="Logo"></a>
+            <div class="top-container">
+                <a href=""><img class="home-img" src="./img/home.svg" alt="home">
+                    <p>Home</p>
+                </a>
+                <a href=""><img class="home-img" src="./img/search.svg" alt="Cerca">
+                    <p>Cerca</p>
+                </a>
+                <a href=""><img class="home-img" src="./img/libreria.svg" alt="Libreria">
+                    <p>La tua libreria</p>
+                </a>
+            </div>
+            <h3 class="playlist-title">PLAYLIST</h3>
+            <div class="playlist-container">
+                <a href=""><img class="playlist-img" src="./img/add-playlist.svg" alt="add">
+                    <p>Crea Playlist</p>
+                </a>
+                <div class="name-container">
+                    <a class="playlist-name" href="">Nome Playlist</a>
+                    <a class="playlist-name" href="">Nome Playlist</a>
+                    <a class="playlist-name" href="">Nome Playlist</a>
+                    <a class="playlist-name" href="">Nome Playlist</a>
+                    <a class="playlist-name" href="">Nome Playlist</a>
+                    <a class="playlist-name" href="">Nome Playlist</a>
+                    <a class="playlist-name" href="">Nome Playlist</a>
+                </div>
+            </div>
+            <div class="download-container">
+                <a href=""><img class="download-img" src="./img/download.svg" alt="download">
+                    <p>Installa app</p>
+                </a>
+                <div class="line"></div>
+                <a href=""><img class="profile-img" src="./img/profile.svg" alt="profile">
+                    <p class="john">John Doe</p>
+                </a>
+            </div>
         </div>
         <div class="content-bar">
             <div class="upgrade-bar">
@@ -21,6 +60,8 @@
         </div>
     </div>
     <div class="down-bar"></div>
+
+
 </body>
 
 </html>
