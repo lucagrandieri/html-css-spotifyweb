@@ -147,6 +147,143 @@ div.download-container a {
 }
 
 .down-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #282828;
     height: 100px;
+    color: #fff;
+    padding: 0 16px;
+    font-size: 0.8rem;
+}
+
+.player-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.player-left img {
+    width: 56px;
+    object-fit: cover;
+}
+
+.track-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.track-title {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.track-artist {
+    color: #7d7d7d;
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+
+.player-left button {
+    background: none;
+    border: none;
+    color: #7d7d7d;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.player-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 8px;
+}
+
+.controls button {
+    background: none;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.play-btn {
+    width: 32px;
+    height: 32px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+.btn-no-border {
+    border: none;
+}
+
+.progress-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 60%;
+}
+
+.time-start,
+.time-end {
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.progress-bar {
+    flex: 1;
+    height: 5px;
+    background-color: #7d7d7d;
+    border: 1px solid #7d7d7d;
+    border-radius: 999px;
+}
+
+.progress-fill {
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 999px;
+}
+
+.player-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.player-right button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.volume-bar {
+    width: 90px;
+    height: 5px;
+    background-color: #7d7d7d;
+    border: 1px solid #7d7d7d;
+    border-radius: 999px;
+}
+
+.volume-fill {
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 999px;
 }
