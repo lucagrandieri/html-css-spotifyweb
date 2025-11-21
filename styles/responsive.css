@@ -1,0 +1,39 @@
+/* breakpoint 878px */
+
+@media screen and (max-width:878px) {
+    .top-nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .cards-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/* breakpoint 639px */
+
+@media screen and (max-width:639px) {
+    .player-right {
+        gap: 5px;
+    }
+
+    .controls {
+        gap: 15px;
+    }
+
+    .progress-row {
+        width: 80%;
+    }
+
+    .left-sinister {
+        max-width: 48px;
+    }
+}
+
+/* breakpoint 552px */
+
+@media screen and (max-width:552px) {
+    
+}
