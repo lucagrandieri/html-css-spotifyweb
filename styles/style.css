@@ -453,8 +453,8 @@ div.download-container a {
 /* bottone play centrale */
 
 .play-btn {
-    width: 48px;
-    height: 48px;
+    width: 32px;
+    height: 32px;
     border: 3px solid #ffffff;
     border-radius: 50%;
     background: none;
@@ -466,9 +466,9 @@ div.download-container a {
 }
 
 .play-btn i {
-    font-size: 1.4rem;
+    font-size: 1rem;
     line-height: 1;
-    margin-left: 3px;
+    margin-left: 1px;
     color: #ffffff;
 }
 
@@ -654,7 +654,7 @@ div.playlist-container a:hover img {
 /* play centrale hover */
 
 .play-btn:hover {
-    transform: scale(1.15);
+    transform: scale(1.2);
 }
 
 /* barra volume hover */
