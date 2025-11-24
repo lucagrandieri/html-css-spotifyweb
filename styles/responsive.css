@@ -35,5 +35,19 @@
 /* breakpoint 552px */
 
 @media screen and (max-width:552px) {
-    
+    .left-bar {
+        width: 50px;
+    }
+
+    .name-container {
+        display: none;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+    .home-container {
+        border: none;
+    }
 }
